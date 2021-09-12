@@ -1,5 +1,5 @@
 # Landing Page Project  
-----------
+
 A multi-section landing page with a dynamically updated navigation bar based on page sections.
 
 ## Table of Contents
