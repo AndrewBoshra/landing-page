@@ -69,6 +69,7 @@ section {
 
 .navbar__menu li {
     display: inline-block;
+    color: #000;
 }
 
 .navbar__menu .menu__link {
@@ -76,16 +77,11 @@ section {
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
-    color: #000;
+    color: inherit;
 }
 .navbar__menu .menu__active {
-    background: #ff7;
-    color: black;
-}
-
-.navbar__menu .menu__link:hover {
     background: #333;
-    color: #fff;
+    color: white;
     transition: ease 0.3s all;
 }
 
