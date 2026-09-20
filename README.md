@@ -1,22 +1,21 @@
-# Landing Page Project  
+# Landing Page
 
-A multi-section landing page with a dynamically updated navigation bar based on page sections.
+A landing page whose navigation is built dynamically from the sections present in the document, rather than hard-coded.
 
-## Table of Contents
+## Stack
 
-* [Usage](#usage)
-* [Technologies](#technologies)
+Vanilla JavaScript · HTML · CSS
 
-## Usage
+## Features
 
-To create a new section just add data-nav attribute with the section title
-and that's it! it will be added to the navigation bar.
+- Navigation generated at runtime from the page's sections
+- The section in the viewport is highlighted as you scroll
+- Smooth scrolling to a section on click
 
-```html
-<section data-nav="<section-title>">
-    Great Content...
-</section>
-```
-## Technologies
-    - Javascript: to manipulate the DOM by dynamically creating the navbar and changing styles  
-    - Html & Css: to create the page
+## Running it
+
+Open `index.html` in a browser.
+
+## Notes
+
+Built as a Udacity Front End Web Developer project.
